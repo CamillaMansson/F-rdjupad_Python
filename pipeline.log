@@ -1,0 +1,18 @@
+[2024-09-27 14:47:02][__main__] Starting data pipeline...
+[2024-09-27 14:47:02][api] Fetching data from TMDB
+[2024-09-27 14:47:02][api] Page 1 fetched successfully.
+[2024-09-27 14:47:02][api] Page 2 fetched successfully.
+[2024-09-27 14:47:02][api] Page 3 fetched successfully.
+[2024-09-27 14:47:02][api] Page 4 fetched successfully.
+[2024-09-27 14:47:02][api] Page 5 fetched successfully.
+[2024-09-27 14:47:02][api] Page 6 fetched successfully.
+[2024-09-27 14:47:02][api] Page 7 fetched successfully.
+[2024-09-27 14:47:02][api] Page 8 fetched successfully.
+[2024-09-27 14:47:03][api] Page 9 fetched successfully.
+[2024-09-27 14:47:03][api] Page 10 fetched successfully.
+[2024-09-27 14:47:03][__main__] Sample movie data: {'adult': False, 'backdrop_path': '/Asg2UUwipAdE87MxtJy7SQo08XI.jpg', 'genre_ids': [28, 14, 27], 'id': 957452, 'original_language': 'en', 'original_title': 'The Crow', 'overview': 'Soulmates Eric and Shelly are brutally murdered when the demons of her dark past catch up with them. Given the chance to save his true love by sacrificing himself, Eric sets out to seek merciless revenge on their killers, traversing the worlds of the living and the dead to put the wrong things right.', 'popularity': 2102.403, 'poster_path': '/58QT4cPJ2u2TqWZkterDq9q4yxQ.jpg', 'release_date': '2024-08-21', 'title': 'The Crow', 'video': False, 'vote_average': 5.421, 'vote_count': 390}
+[2024-09-27 14:47:03][datacleaner] Processing the data...
+[2024-09-27 14:47:03][datacleaner] 200 movies have been cleaned.
+[2024-09-27 14:47:03][datasaver] Saved 200 movies to the database.
+[2024-09-27 14:47:03][datasaver] The movie data is saved
+[2024-09-27 14:47:03][__main__] Data pipeline completed successfully.

@@ -1,0 +1,9 @@
+# Ignore environment variables file with sensitive information
+.env
+
+# Ignore pytest cache
+pytest_cache/
+.cache/
+
+# Ignore Python-cache
+__pycache__/
