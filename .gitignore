@@ -7,3 +7,7 @@ pytest_cache/
 
 # Ignore Python-cache
 __pycache__/
+
+
+.vscode/
+.venv/
